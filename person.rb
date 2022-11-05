@@ -1,3 +1,5 @@
+require './decorator'
+
 class Person < Nameable
   attr_reader :id
   attr_accessor :name, :age, :rental
