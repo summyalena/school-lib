@@ -1,4 +1,4 @@
-# School-lib
+# OOP School-library
 ### School library is a mini-project written using Ruby object-oriented programming methods, JSON data and modules.
 
 # Built With
@@ -6,12 +6,15 @@ Languages: Ruby
 Technologies Used: GIT, GITHUB, LINTERS
 
 # Getting Started
+To get a local copy up and running follow these simple example steps:
 --- To clone the github repo: git clone https://github.com/summyalena/school-lib/
-
 cd school-lib
 On the command line, at the project's root, run bundle install to install app dependencies
 
-Authors
+## Install
+--- npm run install
+
+Author
 👤 Okolike Assumpta
 
 GitHub: @summyalena
@@ -24,5 +27,8 @@ Contributions, issues, and feature requests are welcome! thanks: issue-link
 Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
-Microverse
+## Acknowledgments
+Microverse organization
+
+📝 License
+This project is MIT licensed.
