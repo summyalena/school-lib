@@ -7,10 +7,13 @@ Technologies Used: GIT, GITHUB, LINTERS
 
 # Getting Started
 To get a local copy up and running follow these simple example steps:
---- To clone the github repo: git clone https://github.com/summyalena/school-lib/
+--- To clone the github repo: git clone https://github.com/summyalena/school-lib.git
 cd school-lib
 On the command line, at the project's root, run bundle install to install app dependencies
 
+## Setup
+- To setup, kindly clone the github repo https://github.com/summyalena/school-lib.git
+- Navigate to school-lib file: cd school-lib
 ## Install
 --- npm run install
 
