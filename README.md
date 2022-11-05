@@ -1,14 +1,12 @@
 # School-lib
-### School library is a mini-project written using the object-oriented programming method.
+### School library is a mini-project written using Ruby object-oriented programming methods, JSON data and modules.
 
 # Built With
 Languages: Ruby
 Technologies Used: GIT, GITHUB, LINTERS
-Getting Started
-Clone this repo https://github.com/DuaneDave/School-lib.git
 
-git clone https://github.com/DuaneDave/School-lib.git
-Navigate to morse-code folder/directory
+# Getting Started
+--- To clone the github repo: git clone https://github.com/summyalena/school-lib/
 
 cd school-lib
 On the command line, at the project's root, run bundle install to install app dependencies
