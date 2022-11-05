@@ -1,4 +1,4 @@
-require 
+require
 
 class Person < Nameable
   attr_reader :id
