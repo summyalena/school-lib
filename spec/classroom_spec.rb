@@ -1,23 +1,15 @@
 require_relative './../classroom'
 require_relative './../student'
 
-require_relative '../classroom'
-require_relative '../student'
-
-describe Classroom do
-  context 'When testing the Classroom class' do
-    before(:each) do
-      @classroom = Classroom.new('room_1')
-      @student = Student.new(14, @classroom, 'ben')
-    end
-
-    it 'classroom label should match' do
-      expect(@classroom.label).to eq 'room_1'
-    end
-
-    it 'Add student ' do
-      @classroom.add_student(@student)
-      expect(@classroom.students.size).to be 1
+describe 'Classroom class' do
+  context 'This tests for the classroom class' do
+    it 'should test the books' do
+      classroom = Classroom.new('label') do
+        student = Student.new(12, 'sharn', true)
+        classroom.add_student(student)
+        expect(classroom.label).to eq 'label'
+        expect(classroom.student.length).to eq 1
+      end
     end
   end
 end
