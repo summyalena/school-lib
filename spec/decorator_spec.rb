@@ -1,5 +1,5 @@
-require_relative './../decorator.rb'
-require_relative './../person.rb'
+require_relative './../decorator'
+require_relative './../person'
 
 describe Decorator do
   context 'When testing the Decorator class' do
